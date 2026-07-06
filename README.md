@@ -24,7 +24,7 @@ Welcome to the main repository for eCASA, the premier platform for cute rental l
    git clone [https://github.com/ecasa-dev/ecasa-rent-payments.git](https://github.com/ecasa-dev/ecasa-rent-payments.git)
    cd ecasa-rent-payments
    ```
-2. Set up your virtual environment and install dependencies:
+2. Set up your virtual environment and install these dependencies:
 
    ```bash
    python -m venv venv
@@ -33,7 +33,7 @@ Welcome to the main repository for eCASA, the premier platform for cute rental l
    ```
 
 ### Frontend Setup
-Navigate to the UI directory and install packages:
+Navigate to the UI directory and install these packages:
 
 ```bash
 cd ui
