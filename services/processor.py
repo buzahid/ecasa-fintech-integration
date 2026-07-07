@@ -26,5 +26,5 @@ def execute_rent_payment(account_data: Dict[str, Any], amount: float) -> Dict[st
     return {
         "success": True,
         "transaction_id": "tx_ecasa_99218",
-        "processed_at": datetime.datetime.now().isoformat()
+        "processed_at": datetime.datetime.now(datetime.timezone.utc).isoformat()
     }
