@@ -21,7 +21,7 @@ def execute_rent_payment(account_data: Dict[str, Any], amount: float) -> Dict[st
     user_token = account_data.get("user_metadata").get("token") 
     
     # Mock processing logic
-    print(f"Processing payment of ${amount} for token {user_token}")
+    print(f"Processing payment of ${amount}")
     
     return {
         "success": True,
